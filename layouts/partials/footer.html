@@ -1,0 +1,101 @@
+<footer id="footer">
+    <div class="container">
+        <!-- /.col-md-4 -->
+    <div class="row" style="display: flex;">
+        <!-- Products -->
+        <div class="col-sm"style="padding:0 0 0 30px ;">
+            <h4>Produtos</h4> 
+            
+            <ul>
+                <li><a href="/productos/credito-pessoal">Crédito Pessoal</a></li>
+                <li><a href="/productos/credito-saude">Crédito de Saúde</a></li>
+                <li><a href="/productos/microcredito">Microcrédito</a></li>
+                <li><a href="/productos/vida-feliz">Crédito Informática</a></li>
+            </ul>
+               
+              <hr class="hidden-md hidden-lg hidden-sm">
+  
+        </div>
+        <!-- Contact Us -->
+        <div class="col-sm"style="padding:0 20px 0 20px ;">
+
+                    <h4>Contacte Nos</h4>          
+                    <ul>
+                        <li>Tel: +244 222 020 276
+                            
+                            </li>
+                        <li>Fax: +244 220 012 315</li>
+                        <li><a href="mailto:geral@somicre.com">Email: geral@somicre.com</a></li>
+                    </ul>
+                      <a href="{{ default "/contact" .Site.Params.contact_url }}" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
+          
+                      <hr class="hidden-md hidden-lg hidden-sm">
+          
+        </div>
+         <!-- Usefull Information -->
+         <div class="col-sm" style="padding:0 20px 0 20px ;">
+
+            <h4>Informações Úteis</h4> 
+            
+            <ul>
+                <li>Crédito Pessoal</li>
+                <li>Crédito de Saúde</li>
+                <li>Microcrédito</li>
+                <li>Crédito Informática</li>
+                <li><a href="/resultadosfinanceiros/resultadosfinanceiros">Informação financeira</a></li>
+            </ul>
+               
+              <hr class="hidden-md hidden-lg hidden-sm">
+  
+        </div>
+        <!-- Customer Rights -->
+        <div class="col-sm "style="padding:0 20px 0 20px ;">
+
+            <h4>Direitos dos Consumidores</h4> 
+            
+            <ul>
+                <li>Crédito Pessoal</li>
+                <li>Crédito Saúde</li>
+                <li>Micro-crédito</li>
+                <li>Crédito Informática</li>
+            </ul>
+               
+              <hr class="hidden-md hidden-lg hidden-sm">
+  
+        </div>
+        <!-- Customer Support -->
+        <div class="col-sm" style="padding:0 0 0 20px ;">
+
+                <h4>Apoio Cliente</h4> 
+                
+                <ul>
+                       <li>Provedor de Cliente</li>
+                </ul>
+                   
+                  <hr class="hidden-md hidden-lg hidden-sm">
+      
+        </div>
+    </div>
+
+
+</footer>
+
+<!-- /#footer -->
+
+<!-- *** FOOTER END *** -->
+
+<!-- *** COPYRIGHT ***
+_________________________________________________________ -->
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            {{ if isset .Site.Params "copyright" }}
+            <p class="pull-left">{{ .Site.Params.copyright | safeHTML }}</p>
+            {{ end }}
+        </div>
+    </div>
+</div>
+<!-- /#copyright -->
+
+<!-- *** COPYRIGHT END *** -->
