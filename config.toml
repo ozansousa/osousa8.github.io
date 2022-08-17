@@ -41,7 +41,7 @@ pluralizelisttitles = false
     parent     = "menu.home"
 
 [[menu.main]]
-    name       = "Crédito Informatica"
+    name       = "Crédito Informática"
     url        = "/productos/credito-informatica"
     weight     = 2
     parent     = "menu.home"
@@ -97,20 +97,8 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 2
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://osousa8.github.io"
     pre = "<i class='fab fa-2x fa-github'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "https://www.facebook.com/people/Somicre-Empr%C3%A9stimo-de-Valores/100067477955032/"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -184,8 +172,8 @@ pluralizelisttitles = false
     disabled_logo = false
     logo_text = "Somicre"
 
-    logo = "SomicreLogo.png"
-    logo_small = "SomicreLogo.png"
+    logo = "/SomicreLogo.png"
+    logo_small = "/SomicreLogo.png"
     contact_url = "/contactos/contact/"
     address = """<p>Tel: +244 222 020 276<br>
                 Fax: +244 220 012 315<br>
