@@ -1,4 +1,4 @@
-title = "Universal"
+title = "Universal" 
 theme = "hugo-universal-theme"
 url = "https://Osousa8.github.io"
 #themesDir = "../.."
@@ -81,7 +81,7 @@ pluralizelisttitles = false
 
 [[menu.main]]
     identifier = "contact"
-    name       = "Contact"
+    name       = "Contactos"
     url        = "/contactos/contact/"
     weight     = 7
 
@@ -93,12 +93,6 @@ pluralizelisttitles = false
     name = "Phone"
     url = "tel:+12 34 567 89 01"
     pre = "<i class='fas fa-2x fa-phone'></i>"
-
-[[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://osousa8.github.io"
-    pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -173,7 +167,7 @@ pluralizelisttitles = false
     logo_text = "Somicre"
 
     logo = "/SomicreLogo.png"
-    logo_small = "/SomicreLogo.png"
+    logo_small = "/smolicon.png"
     contact_url = "/contactos/contact/"
     address = """<p>Tel: +244 222 020 276<br>
                 Fax: +244 220 012 315<br>
