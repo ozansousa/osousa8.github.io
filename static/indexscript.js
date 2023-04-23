@@ -14,8 +14,7 @@ function Change(){
     }
     else if(img ==4){
       document.getElementById("img").setAttribute("src", "/creditosaude.png");
-      img=0;
-      return;
+      img=-1;
     }
     img++;
 }
