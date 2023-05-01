@@ -1,6 +1,7 @@
-title = "Universal" 
+title = "Universal"
+baseURL = "https://www.somicre.com/"
 theme = "hugo-universal-theme"
-url = "https://Osousa8.github.io"
+#url = "https://Osousa8.github.io"
 #themesDir = "../.."
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
