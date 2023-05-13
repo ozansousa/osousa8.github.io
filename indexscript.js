@@ -7,13 +7,13 @@ function Change(){
       document.getElementById("img").setAttribute("src", "/microcredito.png");
     }
     else if (img ==2){
-      document.getElementById("img").setAttribute("src", "/creditopessoal.png");
+      document.getElementById("img").setAttribute("src", "/credito-pessoal.png");
     }
     else if(img ==3){
-      document.getElementById("img").setAttribute("src", "/creditoinformatica.png");
+      document.getElementById("img").setAttribute("src", "/credito-informatica.png");
     }
     else if(img ==4){
-      document.getElementById("img").setAttribute("src", "/creditosaude.png");
+      document.getElementById("img").setAttribute("src", "/credito-saude.png");
       img=-1;
     }
     img++;
